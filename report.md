@@ -1,61 +1,4 @@
-Detailed Methodology & Walkthrough
-Data Collection:
-
-Hot wallets and gas suppliers from major centralized exchanges (CEX) like Binance, Coinbase, Kucoin, Bybit, and OKX were gathered using blockchain explorers.
-Using a Dune SQL query, approximately 2.5 million CEX deposit addresses were collected. These are the addresses where users send assets to deposit into a CEX.
-Filtering and Clustering:
-
-With a Dune Dashboard, CEX deposit addresses that received funds from at least seven addresses regularly interacting with Layer Zero were filtered.
-Clusters of active Layer Zero addresses sharing the same CEX deposit address were created, ranging from 7 to 300 addresses.
-Larger clusters were formed using a script, incorporating addresses that interacted with cluster addresses but not with the CEX deposit address. An address needed to be directly linked to at least four other cluster addresses to join.
-Clusters with fewer than 20 addresses (including the CEX deposit address) were discarded.
-First Layer of Detection/Proof:
-
-This automated process identified clusters with addresses sharing the same CEX deposit address, linked to at least four other cluster addresses.
-Despite being automated, this layer has a small percentage of false positives due to multiple interactions and common CEX deposit addresses.
-Second Layer of Detection/Proof:
-
-Each cluster underwent manual scanning to remove false positives and add on-chain arguments to the cluster description.
-On-chain arguments included executing the same transaction at the same time with the same amounts, similar transaction patterns for Layer Zero activities, etc.
-Resources used: LayerZero Scan, Dune, Debank, Arkham, Etherscan, among others.
-This manual process, though time-consuming, ensures the detection of Sybil clusters and minimizes false positives. It also demonstrates thorough verification beyond a mere list of addresses.
-Screening Across Blockchains:
-
-Activity was screened across 14 blockchains:
-Ethereum (endblock 19757726)
-Optimism (endblock 119326917)
-BSC (endblock 38236464)
-Polygon (endblock 56379454)
-Arbitrum (endblock 205653169)
-Gnosis (endblock 33677943)
-Linea (endblock 4059728)
-Scroll (endblock 5184468)
-Zksync (endblock 32656745)
-Moonbeam (endblock 6045324)
-Moonriver (endblock 6637617)
-FTM (endblock 80127182)
-Base (endblock 13709885)
-Celo (endblock 25273962)
-Arkham Diagrams:
-Arkham supports only 7 out of the 14 blockchains used in this report, leading to occasional missing links in Arkham diagrams.
-
-Conclusion:
-The combination of automated and manual detection processes, thorough screening across multiple blockchains, and the use of various resources ensures high accuracy in identifying Sybil clusters with minimal false positives. This rigorous methodology underpins the credibility and reliability of the findings presented in this report.
-
-Table of Contents
-Independent Clusters and Descriptions
-Since each cluster is independent and includes its own description, the following sections have been consolidated for clarity.
-
-Cluster Details
-This section provides a rotation of the list of addresses within each cluster and its description. It includes:
-
-The CEX deposit address shared by some of the addresses
-An Arkham diagram
-The second layer of detection and proof
-
-Reported Addresses & Description
-
-CLUSTER 1
+# CLUSTER 10
 
 The first 8 addresses of the cluster share the same OKX deposit address 0x0d5eA059602029Dda50c3DD96609d086307e2E3A. The rest are linked to numerous addresses of the cluster, multiple times.
 ```
@@ -87,7 +30,7 @@ The first 8 addresses of the cluster share the same OKX deposit address 0x0d5eA0
 
 The addresses have the same L0 age (date of first L0 interaction), 751 days ago, aswell as similar amount bridge, contract count, number of unique days/weeks/months etc...
 
-CLUSTER 2
+# CLUSTER 11
 
 The first 13 addresses of the cluster share the same Binance deposit address 0x8fb8f74078965dc68457e7A9518184cE683bD16B. The rest are linked to numerous addresses of the cluster, multiple times.
 ```
@@ -135,7 +78,7 @@ The addresses share the same activity on the chain. They execute the same transa
 The cluster shares the same CEX deposit address and exhibits identical on-chain activity simultaneously, it is undoubtedly a sybil operation.
 
 
-CLUSTER 3
+# CLUSTER 12
 
 The first 16 addresses of the cluster share the same Binance deposit address 0x4b935DB63500Ac5E54Adf49AF7B70C111D4734b7. The rest are linked to numerous addresses of the cluster, multiple times.
 
@@ -178,7 +121,7 @@ Details
 
 ![image](https://github.com/foukara/report.md/assets/170763146/d7970f41-5be3-4579-b6f8-369ff7cca016)
 
-</details>
+<details>
 
 ![Capture d'écran 2024-05-27 125954](https://github.com/foukara/report.md/assets/170763146/0666397b-c3af-4750-abef-8d953bb87840)
 ![Capture d'écran 2024-05-27 125908](https://github.com/foukara/report.md/assets/170763146/ce318c66-bea0-4a21-995f-1f4ac37969e2)
@@ -191,7 +134,7 @@ Details
 The addresses of the cluster share the same on-chain activity. For example, they all used the Linea bridge multiple times in the same day timespan to bridge ETH.
 
 
-CLUSTER 4
+# CLUSTER 13
 
 The first 23 addresses of the cluster share the same Binance deposit address 0x21EdE3eed957dB25eFB92efab6d01D38D3D71C0B. The rest are linked to numerous addresses of the cluster, multiple times.
 
@@ -226,7 +169,7 @@ The first 23 addresses of the cluster share the same Binance deposit address 0x2
 
 Addresses in the cluster show similar activity on the chain, indicating the sybil nature of the cluster. For example, they have similar deposits/withdrawals on Binance on the same day (equel gas charges around $0.45). To this we can add an L2 Transaction via zkSync for the same amount on the same day (approximately $20).
 
-</details>
+<details>
 
 ![image](https://github.com/foukara/report.md/assets/170763146/ed92b899-ef87-42d0-bd2f-fa9359c3d61f)
 ![image](https://github.com/foukara/report.md/assets/170763146/4b54474b-e7d7-4165-8c79-514ef36a38a7)
@@ -246,7 +189,7 @@ Addresses in the cluster show similar activity on the chain, indicating the sybi
 
 Cluster + same CEX deposit address + same transactions are the same time in order to farm airdrop accross +20 wallets.
 
-CLUSTER 5
+# CLUSTER 14
 
 The first 27 addresses of the cluster share the same Binance deposit address 0x904f23f8E97adb1e706B2F1bcFc19ef47E32cE05. The rest are linked to numerous addresses of the cluster, multiple times.
 
@@ -296,7 +239,7 @@ The first 27 addresses of the cluster share the same Binance deposit address 0x9
 
 Addresses in the cluster share the same activity on the chain. For example, in this script we can see similar movements on the blockchains in the same order and within the same timeframes: ETH, Arbitrum, Scroll, Eigen, Arbinova, zKSync, Base, Linea, Starknet
 
-</details>
+<details>
 
 scroll
 1 0x0c55fe07ad75c135c797422a5857347b2e5a591e 2023-11-19 
@@ -428,7 +371,7 @@ zksync
 Cluster + same cex deposit address + execute transactions at the same time with same amounts to farm airdrops.
 
 
-CLUSTER 6 
+# CLUSTER 15 
 
 The first 25 addresses of the cluster share the same Binance deposit address 0xBF9D58b1c8d3E0495ab9097e71c433eB925B36e8. The rest are linked to numerous addresses of the cluster, multiple times.
 
@@ -576,7 +519,7 @@ zksync
 
 Some examples in pictures below.
 
-</details>
+<details>
 
 Scroll:
 
@@ -604,7 +547,7 @@ zKSync:
 Considering the cluster that link all those addresses, the usage of the same CEX deposit address and the same on-chain activity, there is no doubt this is a cluster of Sybil nature.
 
 
-CLUSTER 7
+# CLUSTER 16
 
 The first 26 addresses of the cluster share the same OKX deposit address 0x0dE5F45Ea0a2013498680f7FEdae05294cF04560. The rest are linked to numerous addresses of the cluster, multiple times.
 
@@ -642,7 +585,7 @@ The first 26 addresses of the cluster share the same OKX deposit address 0x0dE5F
 
 The addresses have the same on-chain activity. For example, they all executed the same create lock and withdraw transaction <$58 from STG on Stargate on Arbitrum in the same time frame.
 
-</details>
+<details>
 
 
 ![image](https://github.com/foukara/report.md/assets/170763146/9e5c3184-3f39-46ab-ae6e-ab7055f86509)
@@ -666,7 +609,7 @@ The addresses have the same on-chain activity. For example, they all executed th
 
 This can go on and on with other examples. Cluster + same CEX deposit address + same on-chain activity.
 
-CLUSTER 8 
+# CLUSTER 17 
 
 The first 9 addresses of the cluster share the same OKX deposit address 0x074c9ee2b8c088f7B90E6b6dA3e2d64a8040a62E. The rest are linked to numerous addresses of the cluster, multiple times.
 
@@ -702,7 +645,7 @@ The addresses have similar on-chain activity. They all have similar Age in days,
 
 Addresses execute a similar transaction originating from the same CEX address. Last but not least, have exactly the same activity, on same day, almst equal amount transaction. For example on Reactor Fusion with the redeem and mint functions found on each addy 
 
-</details>
+<details>
 
 ![image](https://github.com/foukara/report.md/assets/170763146/cb49e2c6-40e9-4f9f-bbd6-c687b47fe706)
 ![image](https://github.com/foukara/report.md/assets/170763146/4ad61cb8-db5f-4b39-b30e-b8c5ca55fb15)
@@ -716,63 +659,6 @@ Addresses execute a similar transaction originating from the same CEX address. L
 
 Cluster + same CEX address + same activity accross +20 wallets to farm airdrop. This is without a doubt a sybil cluster.
 
-
-CLUSTER 9 
-
-The first 48 addresses of the cluster share the same Binance deposit address 0x3c97cA15588e4fE2F209bF117F6499de6916fec4. The rest are linked to numerous addresses of the cluster, multiple times.
-
-```
-0x2d2752f58ffa95efd54d36ab62cccff5e46f66d9
-0x2a59e4d2932eb2412c6de5d78c36b12e783b4b1e
-0xec8f7a3073d66c25771ea611ac69db541c61aafc
-0x67a2aa766abb2dcaa2b417952fcc4897cf7d1f8a
-0xbe56b6392dabfea883a512f3512c475221000000
-0xd7a44b55a9ed0aeed90fc66e22152356bf422230
-0x263198c9fd4d8559c63ce69d0af7f57e11e32e8b
-0x0f0dc7006862c51c73adf33ff7fe27cd5b9fb6d4
-0x12739d8b1f511b589c45ec52aae2cb95a4173932
-0xb4ee962f90fc1ba210611ea294e28ca3dc719c4f
-0xef18d342fae9c175e02a4ab6ed3a7d63f2255ac1
-0xa5b61af6bc5a24991cf54e835bdd2c0c4f41d816
-0x75124add7b1dcf683c49281b32ef15a1706089d7
-0x965fffa0eba9b554417d280d5e7e0fdb56250cfd
-0x2c7092f5deecdb31c4df091ee0d30e59277b6863
-0x2c43b99cc4aa772f14af0611bf22b14cf6e25557
-0x958914bc3fc61629dcc5c11ce9d2e1dc254f3e57
-0xd204a6b7effa8c5c6c7faed2536c322761333417
-0xabe5fc2b40f0327ceeb2f5ecb974f2bf7236eaba
-0xed443bb6bc3f2889418ecf8d627ccbedc7e2f920
-0x8941f8dae82b3717a0984a519f1043bcf8f45694
-0x8c587db57d05c086177233d3bcb25a7739419c71
-0x852a3edf748be46daddbf4a3f0e7f694f3d84d89
-0xa760417f05ba79e3e1bb61f210461ea158808c01
-0x50a6e54cd74641c33b6ee8e2e0e56a14cdeedd66
-0xa9ad0947a8b31412111660f87117e973c6a4d140
-0x981cd7c8791da55f0c00ae98b68fef75ffaf3e9f
-0x25bd9c27b833b25d70bbfcb4333af8bdfa79b596
-0x1f1ec05beb1236023b1377f0f278896ff164a79a
-0xd9abc8165afa7fc11a7571cf69cee6b918ad2f9c
-0x65ded588864d0a9a47e7467c1912e83d84074ff3
-0x3d33e4176034953018544cc93aa04e3c548be93f
-0xbdc2969011901b877e52809f4fe697952d4dc98e
-0xf84656805ce107e3e5f3ebed7f4dd5b9974f87cd
-0x07bac041bfd0ad05f7ba52366693534545f434f8
-0xd496406636bed6be75258b671563d3f072f3f23f
-0x6c7d412ba90db8a2a2c3187440cc879c37ce51c8
-0x1769e1b5ffcb6132134b94666ec6a11fd51707b7
-0xf2eae206f22afe2b9b1c71a274a85bd0d4cdeac0
-0x1bdd2a02a33c70f7e1672b83652f0e5fc1e5eafc
-0x2144247e0e043d5ce11d45b5742f619d65d9fa98
-0x3d51cbfeaea061278d2b20b5da046869f29a20da
-0x1608ba245f47bd35215538413164761b2e9305f5
-0x955b8ed1dda2aa130418d404cae01f318f2e1995
-0x75d9b1ac82a51f45eb0144b4a59ba8acd397e436
-0x974aec0a5c3c740523e47c2a6d68092e27271a0c
-0xab064a7f4e7e34aa4a59ae0b49141a69762a6eec
-0x73db473f90d74503f6c13194d58f93e66d3182d7
-```
-
-![image](https://github.com/foukara/report.md/assets/170763146/67e170a9-cbe5-4b9b-8001-671836c8705d)
 
 
 
