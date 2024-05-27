@@ -117,7 +117,7 @@ The first 13 addresses of the cluster share the same Binance deposit address 0x8
 
 The addresses share the same activity on the chain. They execute the same transaction at the same time to bridge and exchange funds between 15 wallets. For example, they all supplied the same amount of USDT (around $2,000) on Harmony Bridge between 24/08/23 and 25/08/23 to build volume.
 
-</details>
+<details>
 
 ![Capture d'écran 2024-05-27 034259](https://github.com/foukara/report.md/assets/170763146/f9bc1188-ab17-4d3d-a1d4-ba136370cf90)
 ![Capture d'écran 2024-05-27 034356](https://github.com/foukara/report.md/assets/170763146/ccb991e0-7056-496e-a7fb-7705bd069b8e)
