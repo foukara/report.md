@@ -540,7 +540,7 @@ They have similar LZ Age (date of first L0 interaction), amount bridged, contrac
 
 # CLUSTER 10
 
-The first 8 addresses of the cluster share the same OKX deposit address 0x0d5eA059602029Dda50c3DD96609d086307e2E3A. The rest are linked to numerous addresses of the cluster, multiple times.
+The first 8 addresses of the cluster share the same Binance deposit address 0xA968F588782BaeB0C0578C8488A9ED19750516Ff. The rest are linked to numerous addresses of the cluster, multiple times.
 ```
 0x618ee1b1276781cfc7180266aaa737ab8df48518
 0x2eeb17c2e810a80e76c37003f0540fd6c75dc236
@@ -568,7 +568,10 @@ The first 8 addresses of the cluster share the same OKX deposit address 0x0d5eA0
 ![Capture d'écran 2024-05-25 051921](https://github.com/foukara/report.md/assets/170763146/75a28c90-e539-44d2-aaca-afa3b5a1cc24)
 
 
-The addresses have the same L0 age (date of first L0 interaction), 751 days ago, aswell as similar amount bridge, contract count, number of unique days/weeks/months etc...
+The addresses have the same L0 age (date of first L0 interaction), 754 days ago, aswell as similar amount bridge, contract count, number of unique days/weeks/months etc...
+
+![image](https://github.com/foukara/report.md/assets/170763146/46bc2541-bad6-4274-859c-bc2fed115604)
+
 
 # CLUSTER 11
 
