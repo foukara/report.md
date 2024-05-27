@@ -211,7 +211,8 @@ The first 23 addresses of the cluster share the same Binance deposit address 0x2
 0x7114fddf2f16a737726267990ccd9937f1d03e9d
 0xfbe737d11a22fe02a6b725bb4ff394168dae84b6
 
-```![image](https://github.com/foukara/report.md/assets/170763146/7ffde138-75ea-4886-8a0b-a1889e3b5cc0)```
+![image](https://github.com/foukara/report.md/assets/170763146/cb45fe0e-3923-4045-940b-253170320a47)
+
 
 
 
