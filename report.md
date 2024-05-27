@@ -117,8 +117,6 @@ The first 16 addresses of the cluster share the same Binance deposit address 0x4
 
 The addresses have the same L0 age (date of first L0 interaction), 414 days ago, aswell as similar amount bridge, contract count, number of unique days/weeks/months etc...
 
-Details
-
 ![image](https://github.com/foukara/report.md/assets/170763146/d7970f41-5be3-4579-b6f8-369ff7cca016)
 
 <details>
