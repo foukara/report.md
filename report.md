@@ -1,4 +1,4 @@
-Detailed Methodology & Walkthrough
+![image](https://github.com/foukara/report.md/assets/170763146/fcd36e28-8301-4826-91e6-2c09ab40fed1)Detailed Methodology & Walkthrough
 Data Collection:
 
 Hot wallets and gas suppliers from major centralized exchanges (CEX) like Binance, Coinbase, Kucoin, Bybit, and OKX were gathered using blockchain explorers.
@@ -117,7 +117,7 @@ The first 13 addresses of the cluster share the same Binance deposit address 0x8
 The addresses share the same activity on the chain. They execute the same transaction at the same time to bridge and exchange funds between 15 wallets. For example, they all supplied the same amount of USDT (around $2,000) on Harmony Bridge between 24/08/23 and 25/08/23 to build volume.
 
 Details
-```
+
 ![Capture d'écran 2024-05-27 034259](https://github.com/foukara/report.md/assets/170763146/f9bc1188-ab17-4d3d-a1d4-ba136370cf90)
 ![Capture d'écran 2024-05-27 034356](https://github.com/foukara/report.md/assets/170763146/ccb991e0-7056-496e-a7fb-7705bd069b8e)
 ![Capture d'écran 2024-05-27 034428](https://github.com/foukara/report.md/assets/170763146/c4d72b7d-9f0a-485c-95b6-c50c6d381926)
@@ -172,6 +172,7 @@ The first 16 addresses of the cluster share the same Binance deposit address 0x4
 The addresses have the same L0 age (date of first L0 interaction), 414 days ago, aswell as similar amount bridge, contract count, number of unique days/weeks/months etc...
 
 Details
+
 ![image](https://github.com/foukara/report.md/assets/170763146/d7970f41-5be3-4579-b6f8-369ff7cca016)
 
 ![Capture d'écran 2024-05-27 125954](https://github.com/foukara/report.md/assets/170763146/0666397b-c3af-4750-abef-8d953bb87840)
@@ -187,6 +188,7 @@ CLUSTER 4
 
 The first 23 addresses of the cluster share the same Binance deposit address 0x21EdE3eed957dB25eFB92efab6d01D38D3D71C0B. The rest are linked to numerous addresses of the cluster, multiple times.
 
+```
 0x7fb1d49be4ee757afc9d453093ed27f8c58cb541
 0x2d027f8921fb675f0e3a9fc12bbb69848eb3c4e4
 0x25c8a47129746b23481d8ca3fc8b1fd4e3a4e621
@@ -210,6 +212,7 @@ The first 23 addresses of the cluster share the same Binance deposit address 0x2
 0x6d9d33f6a474459f69e1899fed9dae876bc21dbc
 0x7114fddf2f16a737726267990ccd9937f1d03e9d
 0xfbe737d11a22fe02a6b725bb4ff394168dae84b6
+```
 
 ![image](https://github.com/foukara/report.md/assets/170763146/cb45fe0e-3923-4045-940b-253170320a47)
 
