@@ -54,6 +54,7 @@ An Arkham diagram
 The second layer of detection and proof
 
 Reported Addresses & Description
+
 CLUSTER 1
 
 The first 8 addresses of the cluster share the same OKX deposit address 0x0d5eA059602029Dda50c3DD96609d086307e2E3A. The rest are linked to numerous addresses of the cluster, multiple times.
@@ -184,6 +185,33 @@ The addresses of the cluster share the same on-chain activity. For example, they
 
 CLUSTER 4
 
+The first 23 addresses of the cluster share the same Binance deposit address 0x21EdE3eed957dB25eFB92efab6d01D38D3D71C0B. The rest are linked to numerous addresses of the cluster, multiple times.
+
+0x7fb1d49be4ee757afc9d453093ed27f8c58cb541
+0x2d027f8921fb675f0e3a9fc12bbb69848eb3c4e4
+0x25c8a47129746b23481d8ca3fc8b1fd4e3a4e621
+0x63f05818c675ae9542e679129299bf919a5f2e19
+0x02d4dd1f267a4a55526cb71994f88c4e2ac7e8f9
+0x1dc4fabda38c8cff4c547fbb9dbad24d86df234e
+0x5d265b6946b0e43f130108606c2a177fe362b792
+0x41f73466b30c2fce024ad14231d10579c52d31aa
+0xf750303e9887a405b5e7e9033ca70818ea4d14e5
+0x4df5d26454c83f843431e30c75f5f47bb944bb66
+0x42b3368ce67c09825db437833dbfd94a9c72b196
+0x32ab22af29fa6d887523ed4d294eebc710a59465
+0x2c9aaf3915e15d8bc31e5efafccbebd19de5e6d5
+0x61d7910148a48124d47fea79ddb96ce60fb72547
+0x0fdd855cfdfd2be66c3603af112a50ebd3d72fd7
+0x80e718301097e5efd5d151a7a939d623a1e9f403
+0x10495bfeac15fabeb51c37703b28a424fd9ae397
+0xceee95540348ef4befd72a94348bf6e7a8d17fd4
+0xe819a2b7f73602e37569b09b621b7cbcc5cf230b
+0xad055dab70c3623e42986e7566509061b066e6cb
+0x6d9d33f6a474459f69e1899fed9dae876bc21dbc
+0x7114fddf2f16a737726267990ccd9937f1d03e9d
+0xfbe737d11a22fe02a6b725bb4ff394168dae84b6
+
+![image](https://github.com/foukara/report.md/assets/170763146/7ffde138-75ea-4886-8a0b-a1889e3b5cc0)
 
 
 
