@@ -56,8 +56,16 @@ The second layer of detection and proof
 Reported Addresses & Description
 CLUSTER 1
 
-The first 9 addresses of the cluster share the same OKX deposit address 0x0d5eA059602029Dda50c3DD96609d086307e2E3A. The rest are linked to numerous addresses of the cluster, multiple times.
+The first 8 addresses of the cluster share the same OKX deposit address 0x0d5eA059602029Dda50c3DD96609d086307e2E3A. The rest are linked to numerous addresses of the cluster, multiple times.
 ```
+0x618ee1b1276781cfc7180266aaa737ab8df48518
+0x2eeb17c2e810a80e76c37003f0540fd6c75dc236
+0x7a7a7930d462b959e5d1b34b0a34ca2452dcb1ab
+0xaac186bda1edfe82698265f4e5dee822e2aa2ab5
+0x04adcb18c1ebaf21018cef1a7d185d410ddd4df9
+0x145aa20fe7f57d43e0395afe5aba3bd5b22e1fd3
+0x025fc16c31cba10cdc701326a92a40efeb940335
+0x35ebf556bf44fec28f0ceb441644372ed2cedddf
 0x4b1f10157951a7b72640e5b33d53d9dbea049b2f
 0x13e65d6a92c092da14046c332a7c89e2f35cf317
 0x029c46bec4e4b43d363b70f59ef50de36020d51f
@@ -68,6 +76,9 @@ The first 9 addresses of the cluster share the same OKX deposit address 0x0d5eA0
 0xc4b57a09d780a9b7f191a95e97bf8eeb436fdda8
 0x5f0868b8241cafd908faec01fd0c1143086ab570
 0xfcd0845cbac7e7af231573cdc8767a11e837a868
+0x22586c454cc999fc84ab83b5e343564a23e05a0b
+0xd0b3dc955e888ca7ddb89ad7d40d876a4dc66e2d
+0x2174f7d4ef23544b40a2132b2de2baab0d926a22
 ```
 ![Capture d'écran 2024-05-25 051921](https://github.com/foukara/report.md/assets/170763146/75a28c90-e539-44d2-aaca-afa3b5a1cc24)
 
@@ -76,7 +87,7 @@ The addresses have the same L0 age (date of first L0 interaction), 751 days ago,
 
 CLUSTER 2
 
-The first 13 addresses of the cluster share the same OKX deposit address 0x8fb8f74078965dc68457e7A9518184cE683bD16B. The rest are linked to numerous addresses of the cluster, multiple times.
+The first 13 addresses of the cluster share the same Binance deposit address 0x8fb8f74078965dc68457e7A9518184cE683bD16B. The rest are linked to numerous addresses of the cluster, multiple times.
 ```
 0xf0f1a72e52a0f0bc942e479ad368a86809517c17
 0xaedde46485d2495925354d41e25ae5df2ad6d3de
@@ -118,4 +129,61 @@ Details
 ![Capture d'écran 2024-05-27 041243](https://github.com/foukara/report.md/assets/170763146/3e90e5e2-05cb-4953-9de8-ff35926509e4)
 
 The cluster shares the same CEX deposit address and exhibits identical on-chain activity simultaneously, it is undoubtedly a sybil operation.
+
+
+CLUSTER 3
+
+The first 16 addresses of the cluster share the same Binance deposit address 0x4b935DB63500Ac5E54Adf49AF7B70C111D4734b7. The rest are linked to numerous addresses of the cluster, multiple times.
+
+```
+0xc543ab34899698dcf3e381c8e42c839857578437
+0x5a132a762d55d28d762750a8982fc093dafce2c1
+0x1407b89162542385b024612e5f3203a544551049
+0x827a56edd16ccdfd37950917c7668ae3a5a322ba
+0xf19947a12cd486733f555409a2baadec7d9a407a
+0x36ada9506f58e3783b384826d8790cb386bef809
+0xf60e776444db3d107805b81f3df21fa850a28816
+0x63aa5ef4dc2ea1629dae274a4b64a765bcecbc88
+0xe652fb90681f45b65900040c507d47cc7023ac4b
+0x7595c793f3da6c1a99cd8ec0b4ac62787b967c06
+0xdd4c0012af491dcb9839153f24952e60bc2a98bf
+0x672cebb82cc1517118bb02935c2c0c4a04b6afd2
+0xb7c8fd9b644830a3e5c93cd6d66501fb91ae6ee2
+0x6cc1cd6d45c219778b934a969d873648f5c6c389
+0x019e397d9f05ff5079e9b16bfc5f4281bc63b569
+0xecb6add414bd2dc77906a0335b904f25490e9921
+0x024cfd43ba4eb4d215b21ad364fa8ccff560802d
+0x591babe0d235585a8e6c5b200820aa51b3152e29
+0x1f55f2af3f4db9ec65e05656b6f5daf146b6d1f1
+0x40db042211174888bd3803683fff52b139e1cc38
+0x681a522351bb494c2139bbec4ed5c9e6909fad91
+0xa575d5a49dbd5806f07ecfeb49953e9ace6a60f9
+0x1ebcedecee39a5dab3a1ea51280eec5972964068
+0xbb764faf49fd7e77d31ad08cd2581c6252896e7f
+0xdf99a7dfcb51e82fcfff30e99799759bd2090657
+0x810b2164839d435bb45d49359806fee60a4711ba
+0xef7d928eb9331461f5236789aad57f48c96dffa6
+0x6c9474ab1b6657287eddf9e0fc38186d472612e0
+```
+
+![image](https://github.com/foukara/report.md/assets/170763146/a6469402-c99f-423b-ade3-db5e9f2adf45)
+
+The addresses have the same L0 age (date of first L0 interaction), 414 days ago, aswell as similar amount bridge, contract count, number of unique days/weeks/months etc...
+
+Details
+![image](https://github.com/foukara/report.md/assets/170763146/d7970f41-5be3-4579-b6f8-369ff7cca016)
+
+![Capture d'écran 2024-05-27 125954](https://github.com/foukara/report.md/assets/170763146/0666397b-c3af-4750-abef-8d953bb87840)
+![Capture d'écran 2024-05-27 125908](https://github.com/foukara/report.md/assets/170763146/ce318c66-bea0-4a21-995f-1f4ac37969e2)
+![Capture d'écran 2024-05-27 130100](https://github.com/foukara/report.md/assets/170763146/4b5e85d1-4099-4210-b3e4-4d13a6fff485)
+![Capture d'écran 2024-05-27 130036](https://github.com/foukara/report.md/assets/170763146/31ece054-f990-435f-a6e3-f4560ec1d303)
+![Capture d'écran 2024-05-27 130014](https://github.com/foukara/report.md/assets/170763146/a4ca5a11-6520-4b29-b282-5e6c177f1f7f)
+
+The addresses of the cluster share the same on-chain activity. For example, they all used the Linea bridge multiple times in the same day timespan to bridge ETH.
+
+
+CLUSTER 4
+
+
+
 
