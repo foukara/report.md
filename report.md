@@ -726,21 +726,22 @@ zksync
 
 Some examples in pictures below.
 
-Details:
-
 Scroll:
+
 ![image](https://github.com/foukara/report.md/assets/170763146/a85b2817-fa4c-4653-9157-73b63aa55efb)
 ![image](https://github.com/foukara/report.md/assets/170763146/0ad1972b-80d2-4b79-8bc7-bd97eaa87455)
 ![image](https://github.com/foukara/report.md/assets/170763146/7e917c53-3f2a-4512-addb-e15313412d97)
 ![image](https://github.com/foukara/report.md/assets/170763146/d0de856d-e46b-43be-8397-14a71ff66c97)
 
 Arbinova:
+
 ![image](https://github.com/foukara/report.md/assets/170763146/05b854eb-d947-4c4f-bad3-485c73335936)
 ![image](https://github.com/foukara/report.md/assets/170763146/728d00bf-ec26-4832-b259-15f9dc070bcd)
 ![image](https://github.com/foukara/report.md/assets/170763146/fbed876d-4ea6-439e-a6b5-140b26d86ab6)
 ![image](https://github.com/foukara/report.md/assets/170763146/1000e8a5-e93b-482a-a3df-5bcf3c613856)
 
 zKSync:
+
 ![image](https://github.com/foukara/report.md/assets/170763146/13803b57-1714-4fd3-8be3-3d03566d3b4f)
 ![image](https://github.com/foukara/report.md/assets/170763146/dd14f06d-ac33-4624-a324-ee9a6e39717e)
 ![image](https://github.com/foukara/report.md/assets/170763146/8a98bc12-6416-4b8b-b500-ef90f5aa8d7e)
