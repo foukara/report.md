@@ -750,6 +750,75 @@ zKSync:
 Considering the cluster that link all those addresses, the usage of the same CEX deposit address and the same on-chain activity, there is no doubt this is a cluster of Sybil nature.
 
 
+CLUSTER 7
+
+The first 26 addresses of the cluster share the same OKX deposit address 0x0dE5F45Ea0a2013498680f7FEdae05294cF04560. The rest are linked to numerous addresses of the cluster, multiple times.
+
+```
+0x634463e09465b63ae5c14e87c930e27d81ee376d
+0x76f9ad4ec3981097c3ffc06f8ec22f8fd4296dcb
+0x839dae2c7ae0447aa4c95205020ae42873281b91
+0x4d38b5d222b644b58f94c4c68fba416690b5e253
+0xb54a146d12d87fee3dedc3b2ff1105d6aca13794
+0xdfb630d2e6f20baafa9cfcbfd4c3038948dd5bca
+0x32b1eb45132299e337f1368473e39c30eb390a0d
+0x3df801034ebc63d1c975f3ab2e73e2eb212b8777
+0xdd4dbf44b549ac327f797aa5e53c5c00e195332f
+0xef69ea1c0e15540a5dce974f81cdf6ed360797ea
+0x37a551832f73ad58d2703ad6095319a3f3f4dbc9
+0x87df6291db161c4439bc5f9877ca9b47f70f46b3
+0x6cfc3b24611d2263f9e01abc1bf5b1315907fbf4
+0x1b59e268a9b06846a2d53ec5b73afc9de448af6d
+0x48cda476cb5c2ab0c3a54fe1cfd254e768954345
+0xca54ef8af852e7571f54da6793ce96c4fa3f722f
+0x2631fc25e6fb0a21f2044a0ff2485dd426768ba5
+0x6085e497069a8238fc14a6c6c770234e44994be4
+0x6da1c784a01c227869cd22ba569cd20bcbbcdd0d
+0x7e59a5ce59f0d56d9e794b3868598d7936890709
+0x71990172b77380b947ec7b441642a22d083cdb33
+0xd5a7b156a9bbc2613abdb9d6d5e9c61123849b1e
+0xb07612ba565fb6d6306b2d55da493d9c824da4de
+0x4ad5e406cee8810ed8fbbec5746a07aeffea88c4
+0x60fd895590bf4e46ac5485107cc42357109c5438
+0x520e877c78f8fbd5b0581e2dccd2a17f0acf2f76
+0x4f294e5dea9d3b1139960a8ba766908ed19fbd33
+```
+
+![image](https://github.com/foukara/report.md/assets/170763146/50b7b2b2-f86a-40a2-b54d-bb1832058682)
+
+The addresses have the same on-chain activity. For example, they all executed the same create lock and withdraw transaction <$58 from STG on Stargate on Arbitrum in the same time frame.
+
+Details:
+
+![image](https://github.com/foukara/report.md/assets/170763146/9e5c3184-3f39-46ab-ae6e-ab7055f86509)
+![image](https://github.com/foukara/report.md/assets/170763146/4721b68e-62c1-4b60-a22e-7fb1a61840ab)
+![image](https://github.com/foukara/report.md/assets/170763146/a8f833a5-8877-4702-bc16-b63a9302a33a)
+![image](https://github.com/foukara/report.md/assets/170763146/b4e36511-3255-491e-856d-719408f70f61)
+![image](https://github.com/foukara/report.md/assets/170763146/23c8ca9b-354c-41bf-a3ed-77def3a097c6)
+![image](https://github.com/foukara/report.md/assets/170763146/725fdd6d-74aa-482c-9c44-806a202b79ad)
+![image](https://github.com/foukara/report.md/assets/170763146/385dfb84-d76a-4d21-ac61-a226c2b3e16b)
+![image](https://github.com/foukara/report.md/assets/170763146/ce4c14df-c1de-4132-acf3-17cc36a68f9d)
+![image](https://github.com/foukara/report.md/assets/170763146/eac29ec5-11b9-4b92-a3d3-c1990f0ff111)
+![image](https://github.com/foukara/report.md/assets/170763146/19ef0785-a1b1-4509-a093-d77ecc3038ca)
+![image](https://github.com/foukara/report.md/assets/170763146/01a4f2a3-9708-484b-b3f3-9bc905ed4437)
+![image](https://github.com/foukara/report.md/assets/170763146/3a2b0148-57a5-4d83-8d65-50864da0c2a7)
+![image](https://github.com/foukara/report.md/assets/170763146/ab71622f-7fbb-4352-af05-525b7c16b203)
+![image](https://github.com/foukara/report.md/assets/170763146/38d3e17c-6b98-4ead-8ac8-ff734f00352c)
+![image](https://github.com/foukara/report.md/assets/170763146/ceec1229-5721-4ffa-bde9-44a342fdd051)
+![image](https://github.com/foukara/report.md/assets/170763146/f2067d22-36c6-421f-a228-7e0288beb480)
+
+This can go on and on with other examples. Cluster + same CEX deposit address + same on-chain activity.
+
+CLUSTER 8 
+
+
+
+
+
+
+
+
+
 
 
 
