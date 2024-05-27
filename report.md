@@ -217,6 +217,23 @@ The first 23 addresses of the cluster share the same Binance deposit address 0x2
 ![image](https://github.com/foukara/report.md/assets/170763146/cb45fe0e-3923-4045-940b-253170320a47)
 
 
+Addresses in the cluster show similar activity on the chain, indicating the sybil nature of the cluster. For example, they have similar deposits/withdrawals on Binance on the same day (equel gas charges around $0.45). To this we can add an L2 Transaction via zkSync for the same amount on the same day (approximately $20).
 
+![image](https://github.com/foukara/report.md/assets/170763146/ed92b899-ef87-42d0-bd2f-fa9359c3d61f)
+![image](https://github.com/foukara/report.md/assets/170763146/4b54474b-e7d7-4165-8c79-514ef36a38a7)
+![image](https://github.com/foukara/report.md/assets/170763146/5869f6e4-ac5c-4c76-86f4-c8061e09c313)
+![image](https://github.com/foukara/report.md/assets/170763146/e4b60bd1-660e-415b-9f19-97ac16825539)
+![image](https://github.com/foukara/report.md/assets/170763146/68b23f8e-997a-4391-97f5-0ceae8191bd8)
+![image](https://github.com/foukara/report.md/assets/170763146/5e6d32e8-64b0-4693-8322-e6ff478c8522)
+![image](https://github.com/foukara/report.md/assets/170763146/84eb984e-c188-4645-9c13-2e518d47b1e5)
+![image](https://github.com/foukara/report.md/assets/170763146/3f350ee7-14d1-44e2-835a-f3c7b0a40bda)
+![image](https://github.com/foukara/report.md/assets/170763146/d9ed1bb5-23f5-4b42-9d27-12fcd16854b3)
+![image](https://github.com/foukara/report.md/assets/170763146/b9aa428f-33e5-49ab-be45-940416cb28d4)
+![image](https://github.com/foukara/report.md/assets/170763146/cfbb4f9a-3a29-4f12-9bbd-4ae6beee4f79)
+![image](https://github.com/foukara/report.md/assets/170763146/3cce7ccb-3ab7-4ce2-8727-23f19d6facd8)
+![image](https://github.com/foukara/report.md/assets/170763146/3bf14cd3-cbce-402c-a9a8-9043ce71b7fe)
 
+Cluster + same CEX deposit address + same transactions are the same time in order to farm airdrop accross +20 wallets.
+
+CLUSTER 5
 
